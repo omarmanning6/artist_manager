@@ -13,7 +13,7 @@ from PyQt6.QtWidgets import (
 )
 
 from app.ui.pages.home_page import HomePage
-
+from app.ui.pages.expenses_page import ExpensesPage
 
 class PlaceholderPage(QWidget):
     """Temporary page used until a feature page is implemented."""
@@ -65,7 +65,7 @@ class MainWindow(QMainWindow):
         self.supplies_page = PlaceholderPage("Supply Inventory")
         self.customer_page = PlaceholderPage("Customers")
         self.sales_page = PlaceholderPage("Sales")
-        self.expenses_page = PlaceholderPage("Expenses")
+        self.expenses_page = ExpensesPage()
         self.exhibitions_page = PlaceholderPage("Exhibitions")
         self.reports_page = PlaceholderPage("Reports")
 

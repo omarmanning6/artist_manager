@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# VS Code local settings
+.vscode/
+
+# Application data
+data/*.db
+data/uploads/
+
+# Operating-system files
+.DS_Store
+Thumbs.dbgit
